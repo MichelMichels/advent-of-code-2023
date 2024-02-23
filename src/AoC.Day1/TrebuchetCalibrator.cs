@@ -2,7 +2,7 @@
 
 public class TrebuchetCalibrator
 {
-    public int Calculate(string text)
+    public int CalculatePartOne(string text)
     {
         Span<string> lines = text.Split(Environment.NewLine);
 

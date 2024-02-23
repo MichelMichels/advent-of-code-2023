@@ -22,7 +22,7 @@ public class TrebuchetCalibratorTests
         TrebuchetCalibrator trebuchetCalibrator = new();
 
         // Act
-        int result = trebuchetCalibrator.Calculate(File.ReadAllText("example.txt"));
+        int result = trebuchetCalibrator.CalculatePartOne(File.ReadAllText("example.txt"));
 
         // Assert
         Assert.AreEqual(142, result);
